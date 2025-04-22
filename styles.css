@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.choices {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.choice-button {
+    padding: 30px; 
+    flex-grow: 1;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(224, 240, 240);
+    flex-grow: 1;
+    padding: 25px;
+}
